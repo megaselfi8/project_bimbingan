@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ProjecBimbingan</string>
+    <string name="lupa_password">Lupa password?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="nama">Nama Lengkap</string>
+    <string name="aturStatus">Atur Status</string>
+    <string name="hari_ini">Hari Ini</string>
+    <string name="id">ID : 000 000 000</string>
+    <string name="available">Available</string>
+    <string name="notAvailable">Not Available</string>
+    <string name="urutkan_berdasarkan">Urutkan Berdasarkan</string>
+    <string name="search">Search</string>
+    <string name="add">Add Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnEdit">Edit</string>
+    <string name="btnCencel">Cencel</string>
+    <string name="done">Done</string>
+    <string name="btnSubscribe">Subscribe</string>
+    <string name="bookMe">BOOK ME</string>
+    <string name="edit">Edit</string>
+    <string name="lorem">Lorem Ipsum</string>
+    <string name="note">NOTE</string>
+    <string name="list_booking">LIST BOOKING</string>
+    <string name="date">Today/ 19 Juli</string>
+    <string name="favorite">Favorite</string>
+    <string name="dosen">Dosen</string>
+    <string-array name="dosen">
+        <item>Jurusan</item>
+        <item>Keminatan</item>
+        <item>Keperluan</item>
+        <item>Note to dosen</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation">navigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>

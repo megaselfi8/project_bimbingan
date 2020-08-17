@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context=".fragment.LikeFragment">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/gradient_background"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/gradient_blue"
+                android:elevation="4dp"
+                android:layout_gravity="center"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:id="@+id/label_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hari_ini"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/nama_dosen"
+                android:hint="Nama Dosen"
+                android:textSize="19sp"
+                android:gravity="center"
+                android:textColor="@color/blue"
+                android:drawablePadding="16dp"
+                android:background="@android:drawable/editbox_background"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/lokasi"
+                android:hint="Jam"
+                android:textSize="16sp"
+                android:textColor="@color/blue"
+                android:gravity="center"
+                android:drawablePadding="16dp" />
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/gradient_orange"
+                android:elevation="4dp"
+                android:layout_gravity="center"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:id="@+id/jam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="13.00-14.00 WIB"
+                    android:layout_marginLeft="70dp"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/lokasi2"
+                android:hint="Lokasi"
+                android:textSize="16sp"
+                android:textColor="@color/blue"
+                android:gravity="center"
+                android:drawablePadding="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/pesan_lokasi"
+                android:hint="Ruang 02.14 Gedung F, Filkom UB"
+                android:textSize="16sp"
+                android:textColor="@color/blue"
+                android:drawablePadding="16dp"
+                android:background="@android:drawable/editbox_background"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/pesan"
+                android:hint="Pesan"
+                android:textSize="16sp"
+                android:textColor="@color/blue"
+                android:gravity="center"
+                android:drawablePadding="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/pesan_text"
+                android:hint="Pertemuan dengan saya nanti harap membawa laptop, laporan skripsi, serta checklist yang saya tentukan kemarin ya "
+                android:textSize="16sp"
+                android:textColor="@color/blue"
+                android:drawablePadding="16dp"
+                android:background="@android:drawable/editbox_background"/>
+
+            <Button
+                android:id="@+id/btnOk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/gradient_orange"
+                android:text="OK"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

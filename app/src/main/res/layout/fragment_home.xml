@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/content_home"
+    android:background="@drawable/dashboardhome"
+    tools:context=".fragment.HomeFragment">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/icon_notification"
+            android:onClick="notif3"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/notification"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            tools:ignore="OnClick" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/gradient_background"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <TextView
+                android:id="@+id/nama_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/nama"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/orange" />
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/id"
+                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:textColor="@color/orange" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/text"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:onClick="daftar_dosen"
+                android:text="Daftar Dosen"
+                android:textStyle="bold"
+                tools:ignore="OnClick" />
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_alignParentRight="true"
+                android:onClick="daftar_dosen"
+                android:src="@drawable/other_icon"
+                tools:ignore="OnClick" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/card_view"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/iv_poster"
+                app:cardCornerRadius="10dp"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@color/white"
+                android:scaleType="fitXY" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/iv_poster2"
+                app:cardCornerRadius="10dp"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="130dp"
+                android:src="@color/white"
+                android:scaleType="fitXY" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/iv_poster3"
+                app:cardCornerRadius="10dp"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="260dp"
+                android:src="@color/white"
+                android:scaleType="fitXY" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/user_profile_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/background_profile"
+        android:elevation="4dp"
+        android:src="@drawable/vector" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container1"
+    tools:context=".navigation.navigation_dosen">
+
+    <FrameLayout
+        android:id="@+id/fragment_container_dosen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        />
+
+
+    <com.luseen.spacenavigation.SpaceNavigationView
+        android:id="@+id/space_dosen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        app:active_item_color="@color/orange"
+        app:centre_button_color="@color/blue"
+        app:inactive_item_color="@color/gray_dark"
+        app:space_background_color="@color/white"
+        app:centre_button_icon="@drawable/icon_add"
+        app:space_item_icon_size="25sp"
+        app:space_item_icon_only_size="30sp"
+        app:space_item_text_size="12sp" />
+
+</RelativeLayout>
